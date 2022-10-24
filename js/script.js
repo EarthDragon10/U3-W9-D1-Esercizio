@@ -4,8 +4,8 @@ let player_1 = 4;
 let player_2 = 10;
 let randomNum = Math.floor((Math.random() * 100) + 1);
 const getNumPlayer_1 = () => {
-    let inputPlayer_1 = document.querySelector("#player_1");
-    let numPlayer_1 = Number(inputPlayer_1);
+    // let inputPlayer_1: HTMLInputElement = document.querySelector("#player_1");
+    // let numPlayer_1: number = Number(inputPlayer_1.value);
 };
 const comparePlayerToNum = () => {
     if (player_1 === randomNum && player_2 !== randomNum) {
