@@ -1,6 +1,6 @@
 "use strict";
 console.log("Ciao");
-let player_1 = 4;
+let player_1 = 50;
 let player_2 = 10;
 let randomNum = Math.floor((Math.random() * 100) + 1);
 const comparePlayerToNum = () => {

@@ -1,6 +1,6 @@
 console.log("Ciao")
 
-let player_1: number = 4;
+let player_1: number = 50;
 let player_2: number = 10;
 let randomNum: number = Math.floor((Math.random() * 100) + 1);
 
